@@ -6,6 +6,7 @@ import { Token } from '../entities/Token'
 
 export const USDC: TokenMap = {
   [ChainId.ETHEREUM]: new Token(ChainId.ETHEREUM, USDC_ADDRESS[ChainId.ETHEREUM], 6, 'USDC', 'USD Coin'),
+  [ChainId.DOGECHAIN]: new Token(ChainId.DOGECHAIN, USDC_ADDRESS[ChainId.DOGECHAIN], 6, 'USDC', 'USD Coin'),
   [ChainId.ROPSTEN]: new Token(ChainId.ROPSTEN, USDC_ADDRESS[ChainId.ROPSTEN], 6, 'USDC', 'USD Coin'),
   [ChainId.KOVAN]: new Token(ChainId.KOVAN, USDC_ADDRESS[ChainId.KOVAN], 6, 'USDC', 'USD Coin'),
   [ChainId.MATIC]: new Token(ChainId.MATIC, USDC_ADDRESS[ChainId.MATIC], 6, 'USDC', 'USD Coin'),
@@ -35,6 +36,7 @@ export const USD: TokenMap = {
 
 export const WETH9: TokenMap = {
   [ChainId.ETHEREUM]: new Token(ChainId.ETHEREUM, WETH9_ADDRESS[ChainId.ETHEREUM], 18, 'WETH', 'Wrapped Ether'),
+  [ChainId.DOGECHAIN]: new Token(ChainId.DOGECHAIN, WETH9_ADDRESS[ChainId.DOGECHAIN], 18, 'WWDOGE', 'Wrapped WDOGE'),
   [ChainId.ROPSTEN]: new Token(ChainId.ROPSTEN, WETH9_ADDRESS[ChainId.ROPSTEN], 18, 'WETH', 'Wrapped Ether'),
   [ChainId.RINKEBY]: new Token(ChainId.RINKEBY, WETH9_ADDRESS[ChainId.RINKEBY], 18, 'WETH', 'Wrapped Ether'),
   [ChainId.GÖRLI]: new Token(ChainId.GÖRLI, WETH9_ADDRESS[ChainId.GÖRLI], 18, 'WETH', 'Wrapped Ether'),
@@ -94,6 +96,7 @@ export const WNATIVE: TokenMap = {
     'Wrapped FTM'
   ),
   [ChainId.MATIC]: new Token(ChainId.MATIC, WNATIVE_ADDRESS[ChainId.MATIC], 18, 'WMATIC', 'Wrapped Matic'),
+  [ChainId.DOGECHAIN] : new Token(ChainId.DOGECHAIN, WNATIVE_ADDRESS[ChainId.DOGECHAIN], 18, 'WWDOGE', 'Wrapped WDOGE'),
   [ChainId.MATIC_TESTNET]: new Token(
     ChainId.MATIC_TESTNET,
     WNATIVE_ADDRESS[ChainId.MATIC_TESTNET],
@@ -170,6 +173,7 @@ export const WNATIVE: TokenMap = {
 
 export const SUSHI: ChainTokenMap = {
   [ChainId.ETHEREUM]: new Token(ChainId.ETHEREUM, SUSHI_ADDRESS[ChainId.ETHEREUM], 18, 'SUSHI', 'SushiToken'),
+  [ChainId.DOGECHAIN]: new Token(ChainId.DOGECHAIN, SUSHI_ADDRESS[ChainId.DOGECHAIN], 18, 'HOUND', 'HoundToken'),
   [ChainId.ROPSTEN]: new Token(ChainId.ROPSTEN, SUSHI_ADDRESS[ChainId.ROPSTEN], 18, 'SUSHI', 'SushiToken'),
   [ChainId.RINKEBY]: new Token(ChainId.RINKEBY, SUSHI_ADDRESS[ChainId.RINKEBY], 18, 'SUSHI', 'SushiToken'),
   [ChainId.GÖRLI]: new Token(ChainId.GÖRLI, SUSHI_ADDRESS[ChainId.GÖRLI], 18, 'SUSHI', 'SushiToken'),

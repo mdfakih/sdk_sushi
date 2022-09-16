@@ -2,6 +2,7 @@ import { ChainId } from '../enums/ChainId'
 
 export const INIT_CODE_HASH: { [chainId: number]: string } = {
   [ChainId.ETHEREUM]: '0xe18a34eb0e04b04f7a0ac29a6e80748dca96319b42c54d679cb821dca90c6303',
+  [ChainId.DOGECHAIN]: '0x746cdd6c24c5f1496602686ccbb848d5d9c8e5ccc408250c4cc8be8331de6857',
   [ChainId.ROPSTEN]: '0xe18a34eb0e04b04f7a0ac29a6e80748dca96319b42c54d679cb821dca90c6303',
   [ChainId.RINKEBY]: '0xe18a34eb0e04b04f7a0ac29a6e80748dca96319b42c54d679cb821dca90c6303',
   [ChainId.GÖRLI]: '0xe18a34eb0e04b04f7a0ac29a6e80748dca96319b42c54d679cb821dca90c6303',

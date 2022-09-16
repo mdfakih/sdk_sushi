@@ -34,4 +34,6 @@ export enum ChainId {
   KAVA = 2222,
   METIS = 1088,
   ARBITRUM_NOVA = 42170,
+  DOGECHAIN = 2000,
+  DOGECHAIN_TESTNET = 568
 }

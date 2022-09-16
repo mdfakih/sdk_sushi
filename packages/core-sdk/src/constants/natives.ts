@@ -16,6 +16,7 @@ import {
   Telos,
   xDai,
   Metis,
+  Doge
 } from '../entities/Native'
 
 import { ChainId } from '../enums'
@@ -23,6 +24,7 @@ import { NativeMap } from '../types'
 
 export const NATIVE: NativeMap = {
   [ChainId.ETHEREUM]: Ether.onChain(ChainId.ETHEREUM),
+  [ChainId.DOGECHAIN]: Doge.onChain(ChainId.DOGECHAIN),
   [ChainId.ROPSTEN]: Ether.onChain(ChainId.ROPSTEN),
   [ChainId.RINKEBY]: Ether.onChain(ChainId.RINKEBY),
   [ChainId.GÖRLI]: Ether.onChain(ChainId.GÖRLI),

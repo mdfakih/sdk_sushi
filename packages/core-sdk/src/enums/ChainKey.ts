@@ -33,4 +33,6 @@ export enum ChainKey {
   KAVA = 'kava',
   METIS = 'metis',
   ARBITRUM_NOVA = 'arbitrum-nova',
+  DOGECHAIN = 'dogechain',
+  DOGECHAIN_TESTNET = 'dogechain-testnet'
 }
